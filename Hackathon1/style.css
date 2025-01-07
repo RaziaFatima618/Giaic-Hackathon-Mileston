@@ -1,0 +1,107 @@
+/* general styling */
+body{
+
+    font-family: Arial, sans-serif;
+    background-color: rgb(22, 77, 77);
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(75, 60, 71);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px blackrgba(0.0.0.0.1);
+}
+/* left section styling */
+ .left-section {
+    background-color: rgb(22, 18, 18);
+    color:rgb(128, 125, 125);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #722507;
+
+ }
+ h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+ }
+h3 {
+    background-color: #cabfc0;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0 10px ;
+    color: rgb(19, 18, 18);
+    border-radius: 10px; 
+    box-shadow: 0 0 15px #e63946 ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* cursor: pointer; */
+}
+
+.profile-picture{
+
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 10%;
+    border: 5px solid #916266;
+    margin-bottom: 20px;
+
+}
+
+ul{
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+
+}
+ul li{
+    margin: 5px 0;
+
+}
+
+/* right section styling */
+.rigth-section{
+    background-color: rgb(75, 117, 160);
+    color: rgb(247, 235, 235);
+    padding: 20px;
+    width: 85%;
+
+}
+/* button{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+
+
+ &:hovor 
+    background-color: #b8646b;
+} */
+
+.btn{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 25%;
+    color: #916266;
+    background: #722507;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+  &:hover{
+    background: #cabfc0;
+    transform: scale(0.9);
+  }  
+
+
+  
